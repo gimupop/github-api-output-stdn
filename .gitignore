@@ -1,10 +1,40 @@
-### maven ###
-!.mvn/wrapper/maven-wrapper.jar
+# Java
+*.class
+*.jar
+*.war
+*.ear
 
-### IntelliJ IDEA ###
+# Eclipse
+.project
+.classpath
+.settings
+
+# Idea
 .idea
-*.iws
 *.iml
+*.iws
 *.ipr
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Gradle
+.gradle
+!gradle-wrapper.jar
+
+# Maven
+target
+
+# Build
+out
+build
+bin
+
+# Other
+*.log
+*.swp
+*.bak
+
 
 

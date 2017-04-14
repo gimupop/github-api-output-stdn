@@ -1,0 +1,183 @@
+[
+  {
+    "url": "https://api.github.com/repos/spring-projects/spring-boot/issues/8901",
+    "repository_url": "https://api.github.com/repos/spring-projects/spring-boot",
+    "labels_url": "https://api.github.com/repos/spring-projects/spring-boot/issues/8901/labels{/name}",
+    "comments_url": "https://api.github.com/repos/spring-projects/spring-boot/issues/8901/comments",
+    "events_url": "https://api.github.com/repos/spring-projects/spring-boot/issues/8901/events",
+    "html_url": "https://github.com/spring-projects/spring-boot/issues/8901",
+    "id": 221705205,
+    "number": 8901,
+    "title": "Spring Boot ERRORS Windows Error 0x80010135: Path too long",
+    "user": {
+      "login": "mattcsully",
+      "id": 25618591,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/25618591?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mattcsully",
+      "html_url": "https://github.com/mattcsully",
+      "followers_url": "https://api.github.com/users/mattcsully/followers",
+      "following_url": "https://api.github.com/users/mattcsully/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mattcsully/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mattcsully/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mattcsully/subscriptions",
+      "organizations_url": "https://api.github.com/users/mattcsully/orgs",
+      "repos_url": "https://api.github.com/users/mattcsully/repos",
+      "events_url": "https://api.github.com/users/mattcsully/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mattcsully/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 297028791,
+        "url": "https://api.github.com/repos/spring-projects/spring-boot/labels/status:%20feedback-provided",
+        "name": "status: feedback-provided",
+        "color": "fef2c0",
+        "default": false
+      },
+      {
+        "id": 293438798,
+        "url": "https://api.github.com/repos/spring-projects/spring-boot/labels/status:%20waiting-for-triage",
+        "name": "status: waiting-for-triage",
+        "color": "fef2c0",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 3,
+    "created_at": "2017-04-13T23:09:41Z",
+    "updated_at": "2017-04-13T23:35:28Z",
+    "closed_at": null,
+    "body": "<!--\r\nThanks for raising a Spring Boot issue. What sort of issue are you raising?\r\n\r\nQuestion\r\n\r\nPlease ask questions about how to use something, or to understand why something isn't\r\nworking as you expect it to, on Stack Overflow using the spring-boot tag.\r\n\r\nBug report\r\n\r\nPlease provide details of the problem, including the version of Spring Boot that you\r\nare using. If possible, please provide a test case or sample application that reproduces\r\nthe problem. This makes it much easier for us to diagnose the problem and to verify that\r\nwe have fixed it.\r\n\r\nEnhancement\r\n\r\nPlease start by describing the problem that you are trying to solve. There may already\r\nbe a solution, or there may be a way to solve it that you hadn't considered.\r\n-->"
+  },
+  {
+    "url": "https://api.github.com/repos/spring-projects/spring-boot/issues/8900",
+    "repository_url": "https://api.github.com/repos/spring-projects/spring-boot",
+    "labels_url": "https://api.github.com/repos/spring-projects/spring-boot/issues/8900/labels{/name}",
+    "comments_url": "https://api.github.com/repos/spring-projects/spring-boot/issues/8900/comments",
+    "events_url": "https://api.github.com/repos/spring-projects/spring-boot/issues/8900/events",
+    "html_url": "https://github.com/spring-projects/spring-boot/issues/8900",
+    "id": 221547201,
+    "number": 8900,
+    "title": "found application.yml but lacking of snakeyaml,shoud record log ",
+    "user": {
+      "login": "eXcellme",
+      "id": 3040808,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3040808?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/eXcellme",
+      "html_url": "https://github.com/eXcellme",
+      "followers_url": "https://api.github.com/users/eXcellme/followers",
+      "following_url": "https://api.github.com/users/eXcellme/following{/other_user}",
+      "gists_url": "https://api.github.com/users/eXcellme/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/eXcellme/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/eXcellme/subscriptions",
+      "organizations_url": "https://api.github.com/users/eXcellme/orgs",
+      "repos_url": "https://api.github.com/users/eXcellme/repos",
+      "events_url": "https://api.github.com/users/eXcellme/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/eXcellme/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 272169180,
+        "url": "https://api.github.com/repos/spring-projects/spring-boot/labels/for:%20team-attention",
+        "name": "for: team-attention",
+        "color": "c5def5",
+        "default": false
+      },
+      {
+        "id": 514595823,
+        "url": "https://api.github.com/repos/spring-projects/spring-boot/labels/priority:%20normal",
+        "name": "priority: normal",
+        "color": "c2e0c6",
+        "default": false
+      },
+      {
+        "id": 16916893,
+        "url": "https://api.github.com/repos/spring-projects/spring-boot/labels/type:%20enhancement",
+        "name": "type: enhancement",
+        "color": "d4c5f9",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2017-04-13T12:22:01Z",
+    "updated_at": "2017-04-13T21:41:59Z",
+    "closed_at": null,
+    "body": "In `YamlPropertySourceLoader`:\r\n\r\n```java\r\n@Override\r\npublic PropertySource<?> load(String name, Resource resource, String profile)\r\n  throws IOException {\r\nif (ClassUtils.isPresent(\"org.yaml.snakeyaml.Yaml\", null)) {\r\n  Processor processor = new Processor(resource, profile);\r\n  Map<String, Object> source = processor.process();\r\n  if (!source.isEmpty()) {\r\n  return new MapPropertySource(name, source);\r\n  }\r\n} else { // record some log like this\r\n  logger.warn(\"Found \" + name + \" while lacking of snakeyaml\");\r\n}\r\nreturn null;\r\n}\r\n``` \r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/spring-projects/spring-boot/issues/8899",
+    "repository_url": "https://api.github.com/repos/spring-projects/spring-boot",
+    "labels_url": "https://api.github.com/repos/spring-projects/spring-boot/issues/8899/labels{/name}",
+    "comments_url": "https://api.github.com/repos/spring-projects/spring-boot/issues/8899/comments",
+    "events_url": "https://api.github.com/repos/spring-projects/spring-boot/issues/8899/events",
+    "html_url": "https://github.com/spring-projects/spring-boot/issues/8899",
+    "id": 221545089,
+    "number": 8899,
+    "title": "ApplicationReadyEvent fires multiple time while using SpringApplicationBuilder",
+    "user": {
+      "login": "LeckerMaedschen",
+      "id": 27356316,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/27356316?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/LeckerMaedschen",
+      "html_url": "https://github.com/LeckerMaedschen",
+      "followers_url": "https://api.github.com/users/LeckerMaedschen/followers",
+      "following_url": "https://api.github.com/users/LeckerMaedschen/following{/other_user}",
+      "gists_url": "https://api.github.com/users/LeckerMaedschen/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/LeckerMaedschen/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/LeckerMaedschen/subscriptions",
+      "organizations_url": "https://api.github.com/users/LeckerMaedschen/orgs",
+      "repos_url": "https://api.github.com/users/LeckerMaedschen/repos",
+      "events_url": "https://api.github.com/users/LeckerMaedschen/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/LeckerMaedschen/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 272169180,
+        "url": "https://api.github.com/repos/spring-projects/spring-boot/labels/for:%20team-attention",
+        "name": "for: team-attention",
+        "color": "c5def5",
+        "default": false
+      },
+      {
+        "id": 293438798,
+        "url": "https://api.github.com/repos/spring-projects/spring-boot/labels/status:%20waiting-for-triage",
+        "name": "status: waiting-for-triage",
+        "color": "fef2c0",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 2,
+    "created_at": "2017-04-13T12:13:12Z",
+    "updated_at": "2017-04-13T22:25:35Z",
+    "closed_at": null,
+    "body": "Using `ApplicationListener<ApplicatioReadyEvent>` with the usage of `SpringApplicationBuilder` fires multiple notification to that listener (for every child). Please have a look to that small demonstration: [demo.zip](https://github.com/spring-projects/spring-boot/files/919437/demo.zip)\r\n\r\nIssue created after stackoverflow question comment: [here](https://stackoverflow.com/questions/43368430/spring-boot-use-application-listener)\r\n"
+  }
+]
