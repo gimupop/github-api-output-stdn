@@ -1,11 +1,11 @@
-package entity;
+package com.gimupop.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 
 @JsonIgnoreProperties(ignoreUnknown=true)
 @Data
-public class Issues {
+public class Issue {
     private String title;
     private String body;
 }
