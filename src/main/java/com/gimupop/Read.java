@@ -12,7 +12,7 @@ public interface Read {
     /**
      * Issuesの取得をする。
      *
-     * @return
+     * @return Issues
      */
     List<Issue> getIssues(int getCount);
 

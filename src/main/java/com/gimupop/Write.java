@@ -13,6 +13,8 @@ public interface Write {
      * Issuesの中からtitleとbodyを出力する。
      *
      * @param target
+     * @param titleLength
+     * @param bodyLength
      */
     void printTitleAndBodyFromIssues(List<Issue> target,int titleLength,int bodyLength);
 }

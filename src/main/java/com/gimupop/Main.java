@@ -28,29 +28,41 @@ public class Main {
             try {
                 parPage = Integer.parseInt(args[2]);
             } catch (NumberFormatException e) {
-                throw new RuntimeException("取得件数は数字で指定してください。 値" + args[2], e);
+                throw new RuntimeException("取得件数は数字で指定してください。 値: " + args[2], e);
             }
         }
 
+        Optional<List<Issue>> optIssues = read(read,parPage);
+        write(optIssues, write);
+
+    }
+
+    private static Optional<List<Issue>>  read(String read,int parPage){
         Optional<List<Issue>> optIssues;
         if (read.equals("api")) {
             Read readFromApi = new ApiRead();
             optIssues = Optional.ofNullable(readFromApi.getIssues(parPage));
         } else {
-            System.err.println("inputの指定が間違っています。 値:" + read);
-            return;
+            throw new RuntimeException("inputの指定が間違っています。 値: " + read);
         }
 
-        String finalOutput = write;
+        return optIssues;
+    }
+
+    private static void write(Optional<List<Issue>> optIssues,  String write){
+        String finalWrite = write;
         optIssues.ifPresent(issues -> {
-            if (finalOutput.equals("stdout")) {
-                Write stdoutWrite = new StdoutWrite();
-                stdoutWrite.printTitleAndBodyFromIssues(issues, 10, 30);
-            } else if (finalOutput.equals("file")) {
-                Write outputForFile = new FileWrite();
-                outputForFile.printTitleAndBodyFromIssues(issues, 10, 30);
-            } else {
-                System.err.println("outputの指定が間違っています。 値:" + finalOutput);
+            switch (finalWrite) {
+                case "stdout":
+                    Write stdoutWrite = new StdoutWrite();
+                    stdoutWrite.printTitleAndBodyFromIssues(issues, 10, 30);
+                    break;
+                case "file":
+                    Write outputForFile = new FileWrite();
+                    outputForFile.printTitleAndBodyFromIssues(issues, 10, 30);
+                    break;
+                default:
+                    throw new RuntimeException("utputの指定が間違っています。 値: " + finalWrite);
             }
         });
 
