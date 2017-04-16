@@ -1,4 +1,4 @@
-#github-api-issues
+# github-api-issues
 output issues.
 
 https://api.github.com/repos/spring-projects/spring-boot/issues
@@ -6,20 +6,20 @@ https://api.github.com/repos/spring-projects/spring-boot/issues
 You can change behavior by argument.<br>
 If you not set argument , use default setting.
 
-##how to use
+## how to use
 java -jar github-api-output-stdout-1.0-jar-with-dependencies.jar read write parPage
 
-###example
+### example
 java -jar github-api-output-stdout-1.0-jar-with-dependencies.jar api stdout 30
 
-##argument list
-###read
+## argument list
+### read
 api  --default
 
-###write
+### write
 stdout  --default<br> 
 file
 
-###paePage
+### paePage
 natural number
 30 --default
